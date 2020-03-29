@@ -22,7 +22,7 @@ namespace Fm_View
 
         private DataTable GetData(string ms_access_file, string sql_select)
         {
-            //prepare 1
+            //prepare 12
             OleDbConnection connection = new OleDbConnection();
             connection.ConnectionString =
                 "Provider=Microsoft.ACE.OLEDB.12.0;" +
